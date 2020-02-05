@@ -1,0 +1,19 @@
+{
+  "name": "grene-gardening-app",
+  "version": "1.0.0",
+  "description": "Data, links, and functionality to help gardeners plan, grow, and harvest a healthy, happy, organic garden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BubbaF377/grene-gardening-app.git"
+  },
+  "author": "Christian Hankel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BubbaF377/grene-gardening-app/issues"
+  },
+  "homepage": "https://github.com/BubbaF377/grene-gardening-app#readme"
+}
