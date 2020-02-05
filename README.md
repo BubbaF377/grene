@@ -1,2 +1,3 @@
-# grene
-Gardening app
+# grene-gardening-app
+
+The goal of Grene is
