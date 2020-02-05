@@ -1,7 +1,7 @@
 # Grēne: grene-gardening-app
 
 ## Purpose
-The purpose of Grene is two-fold:
+The purpose of Grēne is two-fold:
 1. Build a full stack app from the ground up to to cement some newly acquired skills, while honing existing ones.
 2. Create a useful gardening app for release to the general public
 
