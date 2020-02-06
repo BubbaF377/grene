@@ -17,6 +17,9 @@ Starting out, I plan on using the following technologies. As I move through deve
 - Node / Express
 - GraphQL?
 - Firebase or MongoDB?
+- ESLint
+- Jest
+- SuperTest
 
 ## Development Process
 As I'm more comfortable in the front end, I'm going to scaffold that part of the project first. Backend development will take place in the second phase. Following is a running doc of my dev steps:
@@ -36,6 +39,7 @@ As I'm more comfortable in the front end, I'm going to scaffold that part of the
   - npm i --save-dev @babel/node
   - npm i --save-dev @babel/preset-env
   - npm i --save-dev @babel/preset-react
+  - npm i --save-dev @babel/preset-typescript
   - npm i --save-dev @babel/register
   - npm i --save-dev babel-loader
 8. create .babelrc file
@@ -44,6 +48,8 @@ As I'm more comfortable in the front end, I'm going to scaffold that part of the
   - npm i --save-dev eslint
   - npm i --save-dev eslint-plugin-react
   - npx install-peerdeps --dev eslint-config-airbnb
+  - add .eslintrc.js
+  - add .eslintignore
 10. Create webpack.config.js
 11. Update .gitignore
   - add 'dist'
@@ -51,11 +57,13 @@ As I'm more comfortable in the front end, I'm going to scaffold that part of the
   - npm i --save react
   - npm i --save react-dom
   - npm i --save react-redux
-13. Set up Typescript
+13. Set up [Typescript](https://www.typescriptlang.org/index.html)
   - npm i --save-dev @types/react 
   - npm i --save-dev @types/react-dom
   - npm i --save-dev typescript ts-loader source-map-loader
   - add tsconfig.json
+14. Set up [Jest](https://jestjs.io/)
+  - npm i --save-dev jest
 14. Create stubs for index.tsx and index.html
 15. Set up redux
   - npm i --save redux

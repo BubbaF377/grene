@@ -1,11 +1,47 @@
+// https://medium.com/@cosmvs/painless-migration-from-tslint-to-eslint-for-react-with-typescript-4befb4918ba8
+
+// TOD0: Investigate disbled options. Enable the ones I want and delete the rest.
 {
   "compilerOptions": {
-      "outDir": "./dist/",
-      "sourceMap": true,
-      "noImplicitAny": true,
-      "module": "commonjs",
-      "target": "es6",
-      "jsx": "react",
-      "esModuleInterop": true
-  }
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    // "module": "esnext",
+    // "target": "es5",
+    // "lib": [
+    //   "es6",
+    //   "dom"
+    // ],
+    // "jsx": "preserve",
+    // "allowJs": true,
+    // "moduleResolution": "node",
+    // "rootDir": "src",
+    // "forceConsistentCasingInFileNames": true,
+    // "noImplicitReturns": true,
+    // "noImplicitThis": true,
+    // "noImplicitAny": true,
+    // "noUnusedParameters": true,
+    // "importHelpers": true,
+    // "strictNullChecks": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "noUnusedLocals": true,
+    // "skipLibCheck": true,
+    // "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true,
+    // "strict": true,
+    // "resolveJsonModule": true,
+    // "isolatedModules": true,
+    // "noEmit": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ],
+  "include": [
+    "src"
+  ]
 }
